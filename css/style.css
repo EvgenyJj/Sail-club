@@ -546,9 +546,6 @@
 
 .card-view-button-grid.active {
   background-image: url("/icons/grid-light.svg");
-  background-color: #00c6bd;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .card-view-button-list {
@@ -574,9 +571,6 @@
 
 .card-view-button-list.active {
   background-image: url("/icons/list-light.svg");
-  background-color: #00c6bd;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .cards {
@@ -678,4 +672,9 @@ body {
   font-size: 16px;
   line-height: 24px;
   margin: 0;
+}
+
+.active {
+  background-color: #00c6bd;
+  color: #FDFDFF;
 }
