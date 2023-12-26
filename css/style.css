@@ -668,10 +668,7 @@ body {
   margin: 0;
 }
 
-.card-view-button-list.active,
-.card-view-button-grid.active {
+.active {
   background-color: #00c6bd;
   color: #FDFDFF;
-  background-repeat: no-repeat;
-  background-position: center;
 }
