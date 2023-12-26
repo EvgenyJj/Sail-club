@@ -527,7 +527,10 @@
 .card-view-button-grid {
   width: 40px;
   height: 40px;
-  background: center no-repeat transparent url("/icons/grid.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url("/icons/grid.svg");
   border: 1px solid #00c6bd;
   border-radius: 50%;
   cursor: pointer;
@@ -548,7 +551,10 @@
 .card-view-button-list {
   width: 40px;
   height: 40px;
-  background: center no-repeat transparent url("/icons/list.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url("/icons/list.svg");
   background-color: transparent;
   border: 1px solid #00c6bd;
   border-radius: 50%;
@@ -668,10 +674,7 @@ body {
   margin: 0;
 }
 
-.card-view-button-list.active,
-.card-view-button-grid.active {
+.active {
   background-color: #00c6bd;
   color: #FDFDFF;
-  background-repeat: no-repeat;
-  background-position: center;
 }
