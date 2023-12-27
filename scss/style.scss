@@ -1,12 +1,3 @@
-@import '_blog';
-@import '_contacts';
-@import '_footer';
-@import '_gallery';
-@import '_header';
-@import '_main';
-@import '_news';
-@import '_rent';
-
 body {
    color: #163152;
    background: #FDFDFF;
@@ -15,6 +6,15 @@ body {
    line-height: 24px; 
    margin: 0;
 }
+
+@import '_header';
+@import '_main';
+@import '_blog';
+@import '_rent';
+@import '_gallery';
+@import '_news';
+@import '_contacts';
+@import '_footer';
 
 .active {
    background-color: #00c6bd;
