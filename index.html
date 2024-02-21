@@ -7,6 +7,402 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+   <header class="header">
+      <a class="logo-link" href="#">
+         <img
+            class="logo-image" 
+            src="./img/icons/logo.svg" 
+            alt="Логотип яхт клуба"
+            width="64" height="68"
+            loading="lazy"
+         >
+      </a>
+
+      <nav class="navigation">
+         <ul class="navigation-list">
+            <li class="navigation-item">
+               <a class="navigation-link" href="#">
+                  Наш клуб
+               </a>
+            </li>
+            <li class="navigation-item">
+               <a class="navigation-link" href="#">
+                  Регаты
+               </a>
+            </li>
+            <li class="navigation-item">
+               <a class="navigation-link" href="#">
+                  Команда
+               </a>
+            </li>
+            <li class="navigation-item">
+               <a class="navigation-link" href="#">
+                  Обучение
+               </a>
+            </li>
+            <li class="navigation-item">
+               <a class="navigation-link" href="#">
+                  новости
+               </a>
+            </li>
+            <li class="navigation-item">
+               <a class="navigation-link" href="#">
+                  Контакты
+               </a>
+            </li>
+         </ul>
+      </nav>
+         <button class="button-signin" type="button">
+            <img 
+               class="signin-image"
+               src="./img/icons/sign-in.svg"
+               alt="Войти в личный кабинет"
+               width="36" height="36"
+               title="Войти в личный кабинет"
+               loading="lazy"
+            >
+         </button>
+   </header>
+
+   <main class="main">
+      <section class="hero">
+         <h1>ВМЕСТЕ ПОД ПАРУСОМ</h1>
+         <img
+            src="./img/images/main-photo-1.jpg"
+            width="1170"
+            height="466"
+            alt="Яхта в озере на закате"
+            loading="lazy"
+            >
+      </section>
+      <section class="blog">
+         <h2 class="visually-hidden">Блог</h2>
+         <article class="blog-article blog-article-1">
+            <div class="blog-artical-content">
+               <p class="blog-article-date"><time datetime="2024-10-20">20 октября</time> - <time datetime="2024-04-19">19 апреля</time></p>
+               <h2 class="common-title">Стань частью команды</h2>
+               <p class="blog-article-description">Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!</p>
+            </div>
+         <img
+            class="blog-article-image"
+            src="./img/images/photo-2.jpg"
+            width="600"
+            height="262"
+            alt="Мужчина на яхте смотрит в бинокль"
+            loading="lazy"
+            >
+         </article>
+         <article class="blog-article blog-article-2">
+            <div class="blog-artical-content">
+               <p class="blog-article-date"><time datetime="2024-07-16">16 июля</time> - <time datetime="2024-07-23">23 июля</time></p>
+               <h2 class="common-title">Рожденные в воде</h2>
+               <p class="blog-article-description">Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!
+               </p>
+            </div>
+         <img
+            class="blog-article-image"
+            src="./img/images/photo-3.jpg"
+            width="600"
+            height="252"
+            alt="Дети и взрослые на яхте"
+            loading="lazy"
+            >
+         </article>
+      </section>
+      <section class="gallery">
+         <h2 class="common-title">Галерея</h2>
+         <div class="slider">
+            <img
+               class="active-photo"
+               src="./img/images/gallery-photo-1.jpg"
+               width="970"
+               height="690"
+               alt="Выбранное фото"
+               loading="lazy"
+               >
+            <ul class="slider-preview">
+               <li>
+                  <a href="./img/images/gallery-photo-2.jpg">
+                     <img 
+                        src="./img/images/gallery-preview-photo-2.jpg"
+                        width="170"
+                        height="150"
+                        alt="alt="Нос яхты JUG. На фоне озеро, берег, горы и облачное небо."
+                        loading="lazy"
+                        >
+                  </a>
+               </li>
+               <li>
+                  <a href="./img/images/gallery-photo-3.jpg">
+                     <img 
+                        src="./img/images/gallery-preview-photo-3.jpg" 
+                        width="170"
+                        height="150"
+                        alt="Нос яхты HIRONDELLE на фоне вода океана."
+                        loading="lazy"
+                        >
+                  </a>
+               </li>
+               <li>
+                  <a href="./img/images/gallery-photo-4.jpg">
+                     <img  
+                        src="./img/images/gallery-preview-photo-4.jpg"
+                        width="170"
+                        height="150"
+                        alt="Двое мужчин плывут на парусной яхте СИЛА>>>ВЕТРА."
+                        loading="lazy"
+                        >
+                  </a>
+               </li>
+               <li>
+                  <a class="active-preview" href="./img/images/gallery-photo-1.jpg">
+                     <img 
+                        src="./img/images/gallery-preview-photo-1.jpg"
+                        width="170"
+                        height="150"
+                        alt="Яхта molamola плывёт по озеру. На фоне озеро, берег, горы, чистое небо."
+                        loading="lazy"
+                        >
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <section class="news">
+         <h2 class="common-title">Новости</h2>
+         <article class="post">
+            <figure class="post-image">
+               <img
+                  src="./img/images/news-photo.jpg"
+                  width="770"
+                  height="301"
+                  alt="Мужчина в парадной морской форме на судне."
+                  loading="lazy"
+                  >
+               <figcaption>
+                  Победитель регаты шкипер Иван Кулешов
+               </figcaption>
+            </figure>
+            <div class="post-content">
+               <h3>Итоги регаты Sochi Race Week 2020</h3>
+               <p>
+                  Свыше сотни участников собирались на побережье Сочи, чтобы посоревноваться за главный приз. В соревнованиях приняли участие как новички, так и <del>профессионалы</del> моряки, имеющие за плечами немалый опыт. 
+               </p>
+               <p>
+                  На протяжении всего плавания нас сопровождало солнце прекрасная погода, в отдельные дни ветер до 20 узлов. Регата была прекрасно организована, 135 яхтсменов, 7 экипажей, 9 стран участниц, 4 гоночных дня, 3 дивизиона.
+               </p>
+               <h4>Команды-участники:</h4>
+               <ul>
+                  <li>Восток 35</li>
+                  <li>Fortune Sailing</li>
+                  <li>Сибирь</li>
+                  <li>Левиафан</li>
+                  <li>Черный лебедь</li>
+                  <li>White Pepper</li>
+                  <li>Pearl</li>
+               </ul>
+               <p>
+                  Чемпионом регаты Sochi Race Week 2020 стала команда Fortune Sailing, в прошлом году остановившаяся в одном шаге от победы, а в этом сезоне опередившая ближайшего соперника — экипаж «Восток 35» — на 12 <del>баллов</del> 5 баллов.
+               </p>
+               <blockquote>
+                  Мы в команде очень дружны и понимаем друг друга без слов, думаю, поэтому мы и победили
+               </blockquote>
+               <p>
+                  Поздравляем победителей и ждем все участников снова на осенних регатах! 
+               </p>
+            </div>
+            <footer class="post-footer">
+               <img
+                  class="post-author-img"
+                  src="./img/images/author.jpg"
+                  width="60"
+                  height="60"
+                  alt="Фото автора"
+                  loading="lazy"
+                  >
+                  <p class="post-meta">
+                     <a href="#">Артем Колесников</a>
+                     <time datetime="2024-06-20">20.06.2024</time>
+                  </p>
+                  <a href="#">
+                     <img
+                        class="post-share"
+                        src="./img/icons/share.svg"
+                        width="26"
+                        height="22"
+                        alt="Поделиться"
+                        loading="lazy"
+                        >
+                  </a>
+            </footer>
+         </article>
+      </section>
+      <section class="contacts">
+         <div class="contacts-content">
+            <h2 class="common-title">Контакты</h2>
+            <ul class="contacts-items">
+               <li class="contacts-item">
+                  <h3>Адрес:</h3>
+                  <address>г. Сочи, ул. Бзугу, 9</address>
+               </li>
+               <li class="contacts-item">
+                  <h3>Телефон:</h3>
+                  <a href="tel:+7622620563">8 (622) 62-05-63</a>
+               </li>
+               <li class="contacts-item">
+                  <h3>E-mail:</h3>
+                  <a href="mailto:yachtclub-sochi@mail.ru">yachtclub-sochi@mail.ru</a>
+               </li>
+               <li class="contacts-item">
+                  <h3>Мы в социальных сетях:</h3>
+                  <ul class="social-list">
+                     <li class="social-item">
+                        <a href="#">
+                           <img
+                              src="./img/icons/facebook.svg"
+                              width="40"
+                              height="40"
+                              loading="lazy"
+                              alt="Facebook"
+                              >
+                        </a>
+                     </li>
+                     <li class="social-item">
+                        <a href="#">
+                           <img
+                              src="./img/icons/twitter.svg"
+                              width="40"
+                              height="40"
+                              loading="lazy"
+                              alt="Twitter"
+                              >
+                        </a>
+                     </li>
+                     <li class="social-item">
+                        <a href="#">
+                           <img
+                              src="./img/icons/instagram.svg"
+                              width="40"
+                              height="40"
+                              loading="lazy"
+                              alt="Instagram"
+                              >
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <img 
+            class="contacts-image"
+            src="./img/images/map.png"
+            width="670"
+            height="351"
+            alt="Карта с адресом клуба"
+            loading="lazy"
+            >
+      </section>
+   </main>
+
+   <footer class="footer">
+      <div class="footer-container">
+         <div class="footer-column">
+            <img
+               class="footer-logo"
+               src="./img/icons/logo.svg"
+               width="100"
+               height="106"
+               alt="Логотип яхт клуба"
+               loading="lazy"
+               >
+            <p class="policy">
+               <a href="#">Политика конфиденциальности</a>
+            </p>
+            <p class="copyright">Яхтклуб ©2020 Все права защищены</p>
+         </div>
+            <ul class="footer-navigation-topics">
+               <li class="footer-navigation-topic">
+                  <h2>Компания</h2>
+                  <ul class="footer-navigation-items">
+                     <li class="footer-navigation-item">
+                        <a href="#">О нас</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Команда</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Новости</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Блог</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Галерея</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="footer-navigation-topic">
+                  <h2>Яхт-клуб</h2>
+                  <ul class="footer-navigation-items">
+                     <li class="footer-navigation-item">
+                        <a href="#">Правила</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Стоимость</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Анкета</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">FAQ</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Партнеры</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="footer-navigation-topic">
+                  <h2>Услуги</h2>
+                  <ul class="footer-navigation-items">
+                     <li class="footer-navigation-item">
+                        <a href="#">Аренда яхты</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Свадьба на яхте</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">День рождения</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Бизнес-встречи</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Прогулки</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="footer-navigation-topic">
+                  <h2>Регаты</h2>
+                  <ul class="footer-navigation-items">
+                     <li class="footer-navigation-item">
+                        <a href="#">Корпоративные регаты</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Календарь мероприятий</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Стать участником</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Результаты регат</a>
+                     </li>
+                     <li class="footer-navigation-item">
+                        <a href="#">Обучение</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+      </div>
+   </footer>
 </body>
 </html>
