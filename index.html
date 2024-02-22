@@ -6,19 +6,41 @@
    <title>Яхт Клуб "Под парусом"</title>
    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="page">
    <header class="header">
-      <a class="logo-link" href="#">
-         <img
-            class="logo-image" 
-            src="./img/icons/logo.svg" 
-            alt="Логотип яхт клуба"
-            width="64" height="68"
-            loading="lazy"
-         >
-      </a>
-
+      <div class="services">
+         <div class="services-content">
+            <a class="location" href="#">Сочи</a>
+            <p class="caption">Тема</p>
+            <ul class="theme-switcher">
+               <li>
+                  <button class="theme-button-dark" type="button"></button>
+               </li>
+               <li>
+                  <button class="theme-button-light active" type="button"></button>
+               </li>
+            </ul>
+            <p class="caption">Шрифт</p>
+            <ul class="fonts">
+               <li>
+                  <button class="font-button-sans-serif active" type="button">А</button>
+               </li>
+               <li>
+                  <button class="font-button-serif" type="button">А</button>
+               </li>
+            </ul>
+         </div>
+      </div>
       <nav class="navigation">
+         <a class="logo" href="#">
+            <img
+               src="./img/icons/logo.svg" 
+               alt="Логотип яхт клуба"
+               width="64"
+               height="68"
+               loading="lazy"
+            >
+         </a>
          <ul class="navigation-list">
             <li class="navigation-item">
                <a class="navigation-link" href="#">
@@ -51,17 +73,16 @@
                </a>
             </li>
          </ul>
-      </nav>
-         <button class="button-signin" type="button">
-            <img 
-               class="signin-image"
+         <a class="signin" href="#">
+            <img
                src="./img/icons/sign-in.svg"
+               width="34"
+               height="34"
                alt="Войти в личный кабинет"
-               width="36" height="36"
-               title="Войти в личный кабинет"
                loading="lazy"
-            >
-         </button>
+               >
+         </a>
+      </nav>
    </header>
 
    <main class="main">
@@ -448,14 +469,15 @@
    <footer class="footer">
       <div class="footer-container">
          <div class="footer-column">
+            <a class="logo" href="#">
             <img
-               class="footer-logo"
                src="./img/icons/logo.svg"
                width="100"
                height="106"
                alt="Логотип яхт клуба"
                loading="lazy"
                >
+            </a>
             <p class="policy">
                <a href="#">Политика конфиденциальности</a>
             </p>
@@ -547,5 +569,6 @@
    </footer>
    <script src="./js/layout-cards.js"></script>
    <script src="./js/gallery-slider.js"></script>
+   <script src="./js/switch-theme.js"></script>
 </body>
 </html>
